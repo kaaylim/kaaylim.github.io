@@ -160,5 +160,5 @@ function readMMFiles(evt) {
 	}
 }
 
-document.getElementById('fileinput_mm').addEventListener('change', readMMFiles, false);
+document.getElementById('fileinput_gs').addEventListener('change', readMMFiles, false);
 document.getElementById('fileinput_att').addEventListener('change', readATTFiles, false);
