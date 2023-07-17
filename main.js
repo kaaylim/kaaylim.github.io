@@ -16,7 +16,7 @@ const readFileAsText = (inputFile) => {
 function luaToJson(str){
 	test = str;
 	console.log(str);
-	return JSON.parse(str.replace(/MM\d\dDataSavedVariables =/,"")
+	return JSON.parse(str.replace(/GS\d\dDataSavedVariables =/,"")
 	.replace(/ArkadiusTradeToolsSalesData\d\d\s?=/,"")
 	.replace(/\[(.*?)\]/g,'"$1\"')
 	.replace(/\\\"/g,"'")
