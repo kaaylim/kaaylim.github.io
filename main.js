@@ -52,7 +52,7 @@ function unwrapATTJSON(input){
 
 function unwrapMMJSON(input){
 	var output = [];
-	salesData = input.Default.MasterMerchant.$AccountWide.SalesData
+	salesData = input.dataeu
 	var itemIDs = Object.keys(salesData);
 	itemIDs.forEach(function(itemID){
 		var instances = salesData[itemID];
